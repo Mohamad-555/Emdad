@@ -79,7 +79,7 @@ export default function EthicsGovernance() {
   {/* Hero Content */}
   <div className="relative z-10 text-center max-w-4xl mx-auto px-4">
     <Shield className="w-16 h-16 text-emdad-gold mx-auto mb-6" />
-    <h1 className="text-4xl md:text-5xl font-bold text-emdad-gold mb-6 animate-fade-in-up">
+    <h1 className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-emdad-gold mb-4 md:mb-6 animate-fade-in-up leading-tight">
       {language === 'ar' ? 'الأخلاق والحوكمة' : 'Ethics and Governance'}
     </h1>
   </div>

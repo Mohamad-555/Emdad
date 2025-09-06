@@ -77,11 +77,11 @@ export default function OurValues() {
         {/* Hero Content */}
         <div className="relative z-10 text-center max-w-4xl mx-auto px-4">
           <Star className="w-16 h-16 text-emdad-gold mx-auto mb-6" />
-          <h1 className="text-4xl md:text-5xl font-bold text-emdad-gold mb-6 animate-fade-in-up">
+          <h1 className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-emdad-gold mb-4 md:mb-6 animate-fade-in-up leading-tight">
             {language === "ar" ? "قيمنا" : "Our Values"}
           </h1>
           <p
-            className="text-xl text-white animate-fade-in-up"
+            className="text-base sm:text-lg md:text-xl lg:text-2xl text-white animate-fade-in-up leading-relaxed"
             style={{ animationDelay: "0.2s" }}
           >
             {language === "ar"
