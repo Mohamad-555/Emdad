@@ -32,11 +32,11 @@ export default function Contact() {
         {/* Hero Content */}
         <div className="relative z-10 text-center max-w-4xl mx-auto px-4">
           <Mail className="w-16 h-16 text-emdad-gold mx-auto mb-6" />
-          <h1 className="text-4xl md:text-5xl font-bold text-emdad-gold mb-6 animate-fade-in-up">
+          <h1 className="text-3xl md:text-4xl font-bold text-emdad-gold mb-6 animate-fade-in-up">
             {t("contact.hero.title")}
           </h1>
           <p
-            className="text-xl text-white animate-fade-in-up arabic-text"
+            className="text-lg text-white animate-fade-in-up arabic-text"
             style={{ animationDelay: "0.2s" }}
           >
             {t("contact.hero.subtitle")}

@@ -1,4 +1,3 @@
-
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { Button } from '@/components/ui/button';
@@ -87,18 +86,18 @@ export default function About() {
       <section 
         className="relative h-screen flex items-center justify-center bg-cover bg-center bg-no-repeat"
         style={{
-  backgroundImage: `url('/img/about.avif')`
-}}
+          backgroundImage: `url('/img/about.avif')`
+        }}
       >
         {/* Hero Overlay */}
         <div className="absolute inset-0 bg-emdad-navy opacity-80"></div>
         
         <div className="relative z-10 text-center max-w-4xl mx-auto px-4">
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-emdad-gold mb-6 animate-fade-in-up">
+          <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold text-emdad-gold mb-6 animate-fade-in-up">
             {t('aboutPage.hero.title')}
           </h1>
           
-          <p className="text-xl md:text-2xl text-white leading-relaxed animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
+          <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-white leading-relaxed animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
             {t('aboutPage.hero.subtitle')}
           </p>
         </div>
@@ -186,7 +185,7 @@ export default function About() {
                   <div key={index} className="relative flex items-start mb-8 animate-fade-in-up" style={{ animationDelay: `${index * 0.2}s` }}>
                     <div className="absolute left-2 w-4 h-4 bg-emdad-gold rounded-full transform -translate-x-1/2 mt-6"></div>
                     <div className="ml-12 w-full">
-                  <div className="bg-white p-6 rounded-lg shadow-lg">
+                      <div className="bg-white p-6 rounded-lg shadow-lg">
                         <div className="text-emdad-gold font-bold text-lg mb-2 arabic-balanced-text">{event.year}</div>
                         <h3 className="text-emdad-navy font-semibold mb-2 arabic-text">{event.title}</h3>
                         <p className="text-gray-600 arabic-text leading-relaxed">{event.description}</p>

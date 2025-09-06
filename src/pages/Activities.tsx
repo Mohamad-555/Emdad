@@ -61,10 +61,10 @@ At Emdad Mubasher, we understand that transporting petroleum products is a criti
         <div className="absolute inset-0 bg-emdad-navy opacity-80"></div>
         <div className="relative z-10 text-center max-w-4xl mx-auto px-4">
           <Activity className="w-16 h-16 text-emdad-gold mx-auto mb-6" />
-          <h1 className="text-4xl md:text-5xl font-bold text-emdad-gold mb-6 animate-fade-in-up">
+          <h1 className="text-3xl md:text-4xl font-bold text-emdad-gold mb-4 animate-fade-in-up">
             {language === 'ar' ? 'الأنشطة' : 'Activities'}
           </h1>
-          <p className="text-xl text-white animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
+          <p className="text-lg text-white animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
             {language === 'ar' ? 'التخصص هو مفتاح النجاح' : 'Specialization is the Key to Success'}
           </p>
         </div>
