@@ -82,10 +82,10 @@ export function InteractiveSlider() {
             >
               <div className="absolute inset-0 bg-[#1F3B73] bg-opacity-70 flex items-center justify-center">
                 <div className="text-center max-w-3xl px-6">
-                  <h2 className="text-4xl md:text-5xl font-bold text-emdad-gold mb-6 arabic-text">
+                  <h2 className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-emdad-gold mb-4 md:mb-6 arabic-text leading-tight">
                     {t(`slider.${sliderData[activeIndex].key}`)}
                   </h2>
-                  <p className="text-xl text-white leading-relaxed mb-8 arabic-text">
+                  <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-white leading-relaxed mb-6 md:mb-8 arabic-text">
                     {t(`slider.${sliderData[activeIndex].key}.description`)}
                   </p>
                   <Button

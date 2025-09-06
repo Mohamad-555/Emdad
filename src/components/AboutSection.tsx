@@ -16,11 +16,11 @@ export function AboutSection() {
     <section id="about" className="py-20 bg-emdad-navy">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl md:text-5xl font-bold text-emdad-gold mb-8 animate-fade-in-up arabic-text">
+          <h2 className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-emdad-gold mb-6 md:mb-8 animate-fade-in-up arabic-text leading-tight">
             {t('about.title')}
           </h2>
           
-          <p className="text-xl text-white leading-relaxed mb-8 animate-fade-in-up arabic-text" style={{ animationDelay: '0.2s' }}>
+          <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-white leading-relaxed mb-6 md:mb-8 animate-fade-in-up arabic-text" style={{ animationDelay: '0.2s' }}>
             {t('about.description')}
           </p>
           

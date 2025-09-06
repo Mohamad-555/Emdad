@@ -88,10 +88,10 @@ At Emdad Mubasher, safety is not optional—it is the foundation of our reliabil
         <div className="absolute inset-0 bg-emdad-navy opacity-80"></div>
         <div className="relative z-10 text-center max-w-4xl mx-auto px-4">
           <Shield className="w-16 h-16 text-emdad-gold mx-auto mb-6" />
-          <h1 className="text-4xl md:text-5xl font-bold text-emdad-gold mb-6 animate-fade-in-up">
+          <h1 className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-emdad-gold mb-4 md:mb-6 animate-fade-in-up leading-tight">
             {language === 'ar' ? 'السلامة' : 'Safety'}
           </h1>
-          <p className="text-xl text-white animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
+          <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-white animate-fade-in-up leading-relaxed" style={{ animationDelay: '0.2s' }}>
             {language === 'ar' ? 'الأداء والسلامة هما أولويتنا' : 'Performance & Safety Are Our Priorities'}
           </p>
         </div>

@@ -44,12 +44,12 @@ export default function CorporateGovernance() {
         <div className="absolute inset-0 bg-emdad-navy opacity-80"></div>
 
         <div className="relative z-10 text-center max-w-4xl mx-auto px-4">
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-emdad-gold mb-6 animate-fade-in-up">
+          <h1 className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-emdad-gold mb-4 md:mb-6 animate-fade-in-up leading-tight">
             {language === "ar" ? "الحوكمة المؤسسية" : "Corporate Governance"}
           </h1>
 
           <p
-            className="text-xl md:text-2xl text-white leading-relaxed animate-fade-in-up"
+            className="text-base sm:text-lg md:text-xl lg:text-2xl text-white leading-relaxed animate-fade-in-up"
             style={{ animationDelay: "0.2s" }}
           >
             {language === "ar"

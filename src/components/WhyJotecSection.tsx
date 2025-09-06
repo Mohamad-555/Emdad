@@ -36,7 +36,7 @@ export function WhyJotecSection() {
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <h2 
-            className={`text-4xl md:text-5xl font-bold text-emdad-gold mb-16 text-center animate-fade-in-up ${
+            className={`text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-emdad-gold mb-12 md:mb-16 text-center animate-fade-in-up leading-tight ${
               language === 'ar' ? 'font-[\'Cairo\',\'Tajawal\',\'GE_SS_Unique\',\'DIN_Next_Arabic\',sans-serif]' : ''
             }`}
           >

@@ -93,11 +93,11 @@ export default function About() {
         <div className="absolute inset-0 bg-emdad-navy opacity-80"></div>
         
         <div className="relative z-10 text-center max-w-4xl mx-auto px-4">
-          <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold text-emdad-gold mb-6 animate-fade-in-up">
+          <h1 className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-emdad-gold mb-4 md:mb-6 animate-fade-in-up leading-tight">
             {t('aboutPage.hero.title')}
           </h1>
           
-          <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-white leading-relaxed animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
+          <p className="text-sm xs:text-base sm:text-lg md:text-xl lg:text-2xl text-white leading-relaxed animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
             {t('aboutPage.hero.subtitle')}
           </p>
         </div>
@@ -109,10 +109,10 @@ export default function About() {
           <div className="max-w-6xl mx-auto">
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
-                <h2 className="text-4xl md:text-5xl font-bold text-emdad-gold mb-8 animate-fade-in-up arabic-text">
+                <h2 className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-emdad-gold mb-6 md:mb-8 animate-fade-in-up arabic-text leading-tight">
                   {t('aboutPage.company.title')}
                 </h2>
-                <p className="text-lg text-gray-700 leading-relaxed animate-fade-in-up arabic-text" style={{ animationDelay: '0.2s' }}>
+                <p className="text-base sm:text-lg md:text-xl text-gray-700 leading-relaxed animate-fade-in-up arabic-text" style={{ animationDelay: '0.2s' }}>
                   {t('aboutPage.company.description')}
                 </p>
               </div>
@@ -155,7 +155,7 @@ export default function About() {
       <section className="py-20 bg-emdad-navy">
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-bold text-emdad-gold text-center mb-16 animate-fade-in-up">
+            <h2 className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-emdad-gold text-center mb-12 md:mb-16 animate-fade-in-up leading-tight">
               {t('aboutPage.partnerships.title')}
             </h2>
             
@@ -215,7 +215,7 @@ export default function About() {
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-bold text-emdad-gold text-center mb-16 animate-fade-in-up">
+            <h2 className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-emdad-gold text-center mb-12 md:mb-16 animate-fade-in-up leading-tight">
               {t('aboutPage.ambition.title')}
             </h2>
             

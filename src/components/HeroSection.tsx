@@ -24,14 +24,15 @@ export function HeroSection() {
       {/* Hero Content */}
       <div className="relative z-10 text-center max-w-3xl mx-auto px-4 md:px-6 py-10">
         <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-extrabold mb-6 bg-gradient-to-r from-emdad-gold via-yellow-400 to-emdad-gold bg-clip-text text-transparent animate-pulse arabic-text">
+        <h1 className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-extrabold mb-4 md:mb-6 bg-gradient-to-r from-emdad-gold via-yellow-400 to-emdad-gold bg-clip-text text-transparent animate-pulse arabic-text leading-tight">
           {t('hero.title')}
         </h1>
 
-        <p className="text-sm sm:text-base md:text-lg lg:text-xl text-white/80 mb-3 animate-fade-in-up arabic-text arabic-balanced-text">
+        <p className="text-xs xs:text-sm sm:text-base md:text-lg lg:text-xl text-white/80 mb-2 md:mb-3 animate-fade-in-up arabic-text arabic-balanced-text leading-relaxed">
           {t('hero.company')}
         </p>
 
-        <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-white leading-relaxed mb-8 animate-fade-in-up arabic-text">
+        <p className="text-sm xs:text-base sm:text-lg md:text-xl lg:text-2xl text-white leading-relaxed mb-6 md:mb-8 animate-fade-in-up arabic-text">
           {t('hero.subtitle')}
         </p>
 
